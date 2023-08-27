@@ -4,5 +4,8 @@
 
 import { application } from "./application"
 
+import DocsTextController from "./docs_text_controller"
+application.register("docs-text", DocsTextController)
+
 import HelloController from "./hello_controller"
 application.register("hello", HelloController)
