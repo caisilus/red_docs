@@ -1,0 +1,9 @@
+.no-border {
+    border: 0;
+    box-shadow: none;
+}
+
+.no-border:hover:not(:focus) {
+    border: solid;
+    border-width: thin;
+}
